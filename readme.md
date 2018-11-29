@@ -1,9 +1,10 @@
+# VIM-TMUX IDE
+
 This will setup all dependencies required to setup a vim-tmux like an IDE.
 
 Tested only in Ubuntu 18.10 lts
 
 List of Libraries/software that will be installed. All dependencies are also installed.
-
 
 * Vim - version 8
 * python - version 3.6
@@ -18,9 +19,10 @@ List of Libraries/software that will be installed. All dependencies are also ins
 * fuzzyfinder
 * powerline
 * rvm
-* git@github.com:jezzyjez/LinuxProfile.git, Contains the following Configuration
+* https://github.com/jezzyjez/LinuxProfile, Contains the following Configuration
   - Tmux config
   - vimrc
+    - Plugins are also auto installed
   - profile-user
   - prompt-git - handy script for git 
 
