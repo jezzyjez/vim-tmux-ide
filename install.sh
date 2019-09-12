@@ -15,7 +15,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/
-git clone git@github.com:jezzyjez/LinuxProfile.git
+git clone https://github.com/jezzyjez/LinuxProfile ~/ 
 cp ~/LinuxProfile/.vimrc ~/.vimrc
 cp ~/LinuxProfile/.tmux-conf ~/.tmux-conf
 echo "installing vim plugin"
@@ -28,9 +28,9 @@ echo "source ~/LinuxProfile/.profile" >> ~/.bashrc
  
 echo "Installing PowerLine"
 pip3 install powerline-status
-apt-get install fonts-powerline
-apt-get install terminator
-apt install build-essential cmake python3-dev
+apt-get -y install fonts-powerline
+apt-get -y install terminator
+apt -y install build-essential cmake python3-dev
 
 echo "Install nodejs"
 apt-get -y install npm
